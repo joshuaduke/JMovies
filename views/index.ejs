@@ -1,7 +1,22 @@
 <%- include('partials/header.ejs') -%>
 
+    <fieldset>
+        <legend>Log In</legend>
+        <form action="">
+            <p>
+                <input type="text" placeholder="Email" id="login-email">
+            </p> 
+            <p>
+                <input type="password" name="" id="login-password" placeholder="Password">
+            </p> 
+            <p>OR</p>
+            <p> <i class="fab fa-google"></i> <input type="text" name="" id="login-google" value="Continue with Google">
+            </p>
+            <p>Don't Have an Account <a href="">Sign Up</a> </p>
+            <p><a href="">Forgot Your Password? </a></p>
 
-    </body>
-</html>
+            <button type="submit" id="login-submit">Log In</button>
+        </form>
+    </fieldset>
 
 <%- include('partials/footer.ejs') -%>
